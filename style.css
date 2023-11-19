@@ -8,12 +8,27 @@ body {
     font-family:'Roboto', sans-serif;;
 }
 
+/* Utility Classes */
+.btn-primary{
+    background: #1DB954;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
 /* Navbar */
 #navbar {
     display: flex;
     background-color: rgba(0, 0, 0, 0.6);
     justify-content: center;
     color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 #navbar .navbar-container {
@@ -44,3 +59,31 @@ body {
     border-right: 1px solid white; /* Coloca uma borda a direita do 3° elemento */
 }
 
+/* Showcase */
+#showcase{
+    height: 100vh; /* 100% da viewport (vh -> viewport)*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Imagem de fundo */
+    color: white;
+    background: url('./img/showcase.webp') center center/cover;
+    /* Escurece a imagem */
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: color;
+}
+
+#showcase .showcase-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#showcase .showcase-container h2 {
+    font-size: 5rem;
+}
+
+#showcase .showcase-container p {
+    margin: 15px 0;
+    font-size: 1.3rem;
+}
