@@ -8,6 +8,11 @@ body {
     font-family:'Roboto', sans-serif;;
 }
 
+.logo {
+    height: 40px;
+    width: auto;
+}
+
 /* Utility Classes */
 .btn-primary{
     background: #1DB954;
@@ -39,10 +44,6 @@ body {
     padding: 20px 0;
 }
 
-#navbar .navbar-container .logo {
-    height: 40px;
-    width: auto;
-}
 
 #navbar .navbar-container ul {
     display: flex;
