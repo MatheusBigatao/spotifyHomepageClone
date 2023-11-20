@@ -3,5 +3,5 @@
 ## Gif
 
 <p aligh='center'>
-    <img width = '500' src='to_readme/projeto.gif'>
+    <img width = '800' src='to_readme/projeto.gif'>
 </p>
